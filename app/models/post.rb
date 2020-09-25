@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # == Schema Information
 #
 # Table name: posts
@@ -12,5 +14,4 @@
 
 class Post < ActiveRecord::Base
   belongs_to :author
-
 end
